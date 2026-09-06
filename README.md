@@ -10,7 +10,10 @@
 
 **A Professional To-Do List Application with Local Storage Functionality**
 
-[Live Demo](#demo) • [Features](#-features) • [Getting Started](#-getting-started) • [Documentation](#-documentation) • [Contributing](#-contributing)
+### 🎯 [Live Demo](https://hcshahriar.github.io/TodoListApp/) • [Features](#-features) • [Getting Started](#-getting-started) • [Documentation](#-documentation) • [Contributing](#-contributing)
+
+### ⭐ Try the Live Demo Now:
+### 👉 [https://hcshahriar.github.io/TodoListApp/](https://hcshahriar.github.io/TodoListApp/)
 
 </div>
 
@@ -18,6 +21,7 @@
 
 ## 📋 Table of Contents
 
+- [Demo](#-live-demo)
 - [Overview](#overview)
 - [Features](#-features)
 - [Technology Stack](#-technology-stack)
@@ -29,6 +33,22 @@
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [License](#-license)
+
+---
+
+## 🌐 Live Demo
+
+Experience the TodoListApp in action! Click the link below to access the fully functional, hosted application:
+
+### **[🚀 Open Live Demo - https://hcshahriar.github.io/TodoListApp/](https://hcshahriar.github.io/TodoListApp/)**
+
+The demo includes all features:
+- ✅ Add, edit, delete tasks
+- ✅ Mark tasks as complete
+- ✅ Filter tasks (All, Active, Completed)
+- ✅ View task statistics
+- ✅ Automatic local storage persistence
+- ✅ Responsive design for all devices
 
 ---
 
@@ -44,6 +64,7 @@ Key highlights:
 - ✅ **Full CRUD Operations** - Create, Read, Update, Delete tasks
 - ✅ **Smart Filtering** - View all, active, or completed tasks
 - ✅ **Real-time Stats** - Track task statistics
+- ✅ **Live Demo** - Fully hosted and ready to use
 
 ---
 
@@ -77,13 +98,19 @@ Key highlights:
 | **Storage** | Browser LocalStorage | Persistent data |
 | **Icons** | Font Awesome 6 | Beautiful icons |
 | **Design** | CSS Grid, Flexbox | Modern layout |
+| **Hosting** | GitHub Pages | Live deployment |
 | **Version Control** | Git | Project management |
 
 ---
 
 ## 🚀 Getting Started
 
-### Option 1: Clone the Repository
+### Option 1: Use Live Demo (Recommended)
+Simply visit: **[https://hcshahriar.github.io/TodoListApp/](https://hcshahriar.github.io/TodoListApp/)**
+
+No installation required! Start managing tasks immediately.
+
+### Option 2: Clone the Repository
 
 ```bash
 # Clone the repository
@@ -98,13 +125,13 @@ cd TodoListApp
 # - Use Node: npx http-server
 ```
 
-### Option 2: Download Files
+### Option 3: Download Files
 
 1. Download all files from the repository
 2. Save them in a folder
 3. Open `index.html` in your web browser
 
-### Option 3: Use Live Server (VS Code)
+### Option 4: Use Live Server (VS Code)
 
 ```bash
 # Install Live Server extension in VS Code
@@ -112,7 +139,7 @@ cd TodoListApp
 # Select "Open with Live Server"
 ```
 
-### Quick Start with Python
+### Option 5: Quick Start with Python
 
 ```bash
 # Python 3
@@ -322,6 +349,7 @@ const app = new TodoListApp();
 - ✅ Task statistics
 - ✅ Professional UI
 - ✅ Responsive design
+- ✅ Live demo hosted
 
 ### Version 1.1.0 (Planned)
 - [ ] Task categories/tags
@@ -391,6 +419,7 @@ copies or substantial portions of the Software.
 - 🐛 **Report Issues**: [GitHub Issues](https://github.com/hcshahriar/TodoListApp/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/hcshahriar/TodoListApp/discussions)
 - 🌐 **Website**: [Visit Portfolio](https://github.com/hcshahriar)
+- 🎯 **Live Demo**: [TodoListApp Demo](https://hcshahriar.github.io/TodoListApp/)
 
 ---
 
@@ -399,6 +428,7 @@ copies or substantial portions of the Software.
 - [Font Awesome](https://fontawesome.com/) for beautiful icons
 - [MDN Web Docs](https://developer.mozilla.org/) for documentation
 - [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API) for LocalStorage
+- [GitHub Pages](https://pages.github.com/) for hosting
 
 ---
 
@@ -407,6 +437,8 @@ copies or substantial portions of the Software.
 **Made with ❤️ by [hcshahriar](https://github.com/hcshahriar)**
 
 Give this project a ⭐️ if you found it helpful!
+
+### [🚀 Try Live Demo Now](https://hcshahriar.github.io/TodoListApp/)
 
 [⬆ back to top](#todolistapp)
 
