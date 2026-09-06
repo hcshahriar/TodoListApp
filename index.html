@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A professional to-do list application with local storage functionality">
+    <title>TodoListApp - Professional Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-wrapper">
+            <!-- Header -->
+            <div class="header">
+                <h1><i class="fas fa-check-circle"></i> TodoListApp</h1>
+                <p class="subtitle">Organize your tasks efficiently</p>
+            </div>
+
+            <!-- Input Section -->
+            <div class="input-section">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="taskInput" 
+                        class="task-input" 
+                        placeholder="Add a new task..."
+                        autocomplete="off"
+                    >
+                    <button id="addBtn" class="btn btn-add">
+                        <i class="fas fa-plus"></i> Add Task
+                    </button>
+                </div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-section">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-list"></i> All
+                </button>
+                <button class="filter-btn" data-filter="active">
+                    <i class="fas fa-circle-notch"></i> Active
+                </button>
+                <button class="filter-btn" data-filter="completed">
+                    <i class="fas fa-check"></i> Completed
+                </button>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="stats-section">
+                <div class="stat">
+                    <span class="stat-label">Total Tasks:</span>
+                    <span class="stat-value" id="totalTasks">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Completed:</span>
+                    <span class="stat-value" id="completedTasks">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Remaining:</span>
+                    <span class="stat-value" id="remainingTasks">0</span>
+                </div>
+            </div>
+
+            <!-- Task List -->
+            <div class="task-list-container">
+                <ul id="taskList" class="task-list">
+                    <!-- Tasks will be dynamically added here -->
+                </ul>
+                <div id="emptyState" class="empty-state">
+                    <i class="fas fa-inbox"></i>
+                    <p>No tasks yet. Add one to get started!</p>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button id="clearCompletedBtn" class="btn btn-secondary">
+                    <i class="fas fa-trash"></i> Clear Completed
+                </button>
+                <button id="deleteAllBtn" class="btn btn-danger">
+                    <i class="fas fa-trash-alt"></i> Delete All
+                </button>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <p>Data is saved automatically to your browser's local storage</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
